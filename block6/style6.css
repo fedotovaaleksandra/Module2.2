@@ -1,0 +1,32 @@
+.main {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #9ee483;
+  border-radius: 100%;
+  color: white;
+  font-size: 50px;
+}
+
+.circle:nth-child(7) {
+  background-color: purple;
+}
+
+.circle:nth-child(9) {
+  background-color: #c9cfc8;
+  color: black;
+}
+
+.connect {
+  width: 30px;
+  height: 10px;
+  background-color: #c9cfc8;
+}
