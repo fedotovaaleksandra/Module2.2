@@ -1,0 +1,43 @@
+body {
+  height: 2000px;
+}
+
+.main {
+  display: flex;
+  position: absolute;
+  left: -450px;
+  transition: all 1.5s;
+  position: fixed;
+  bottom: 40px;
+}
+
+.banner {
+  display: flex;
+  width: 450px;
+  background-color: #472925;
+}
+
+.banner img {
+  padding: 10px;
+}
+
+.banner .description {
+  padding-top: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.connect {
+  background-color: rgba(216, 187, 23, 0.863);
+  border-radius: 40px 0px 0px 40px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding-top: 10px;
+  font-size: 15px;
+  color: #191818;
+}
+
+.main:hover {
+  transition: all 1.5s;
+  left: 0px;
+}
