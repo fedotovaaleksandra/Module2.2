@@ -1,28 +1,28 @@
-  .battery {
-      display: flex;
-  }
+.battery {
+  display: flex;
+}
 
-  .battery .main {
-      margin-top: 52px;
-      width: 15px;
-      height: 50px;
-      background-color: black;
-  }
+.battery .main {
+  margin-top: 52px;
+  width: 15px;
+  height: 50px;
+  background-color: black;
+}
 
-  .battery .low,
-  .battery .medium,
-  .battery .high {
-      margin: 20px 0 20px 20px;
-      width: 350px;
-      height: 100px;
-      border: 8px solid black;
-      background: linear-gradient(to right, #ED1C24 33%, transparent 0%);
-  }
+.battery .low,
+.battery .medium,
+.battery .high {
+  margin: 20px 0 20px 20px;
+  width: 350px;
+  height: 100px;
+  border: 8px solid black;
+  background: linear-gradient(to right, #ED1C24 33%, transparent 0%);
+}
+  
+.battery .medium {
+  background: linear-gradient(to right, #FFC60B 66%, transparent 0%);
+}
 
-  .battery .medium {
-      background: linear-gradient(to right, #FFC60B 66%, transparent 0%);
-  }
-
-  .battery .high {
-      background: linear-gradient(to right, #00A055 100%, transparent 0%);
-  }
+.battery .high {
+  background: linear-gradient(to right, #00A055 100%, transparent 0%);
+}
