@@ -1,0 +1,64 @@
+.main {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #152861;
+}
+
+.main_hosting {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #fff;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+.main_hosting .main_hosting_item {
+  margin: 10px auto;
+  width: 30%;
+  border-right: 1px solid #51545d;
+}
+
+.main_hosting .main_hosting_item:nth-child(3n),
+.main_hosting .main_hosting_item:last-child {
+  border: none;
+}
+
+.main_hosting .main_hosting_item .main_hosting_item_img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  height: 180px;
+  padding-top: 50px;
+  padding: 50px 20px 0 20px;
+}
+
+.main_hosting .main_hosting_item .main_hosting_item_title {
+  margin-top: 10px;
+  text-align: center;
+  color: #ff7c00;
+}
+
+.main_hosting .main_hosting_item .main_hosting_item_price {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main_hosting .main_hosting_item .main_hosting_item_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #ff4800;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main_hosting .main_hosting_item .main_hosting_item_btn:hover {
+  background-color: #f5ff00;
+  color: black;
+}
