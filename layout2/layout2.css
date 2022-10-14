@@ -21,7 +21,7 @@ body {
   justify-content: center;
 }
 
-.header__text {
+.header_text {
   color:#ff4c00;
   font-size: 60px;
   font-family: 'Oswald', sans-serif;
@@ -33,13 +33,13 @@ body {
   margin: 20px 175px 0px;
 }
 
-.body__text_link {
+.body_text_link {
   margin: 0px;
   color: #f05510;
   text-decoration: none;
 }
 
-.body__text_link:hover {
+.body_text_link:hover {
   color: #be420c;
 }
 
@@ -121,7 +121,7 @@ body {
   display: flex;
 }
 
-.footer__text {
+.footer_text {
   color: #ffffff;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -134,19 +134,19 @@ body {
   padding: 16px;
 }
 
-.backlink__text {
+.backlink_text {
   color: #e5e5e5;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   margin: 20px 0px;
 }
 
-.backlink__text_link {
+.backlink_text_link {
   color: #f9b99c;
   margin: 0px;
 }
 
-.backlink__text_link:hover {
+.backlink_text_link:hover {
   color: grey;
   text-decoration: none;
 }
@@ -170,7 +170,7 @@ body {
     grid-template-rows: repeat(4, auto);
   }
 
-  .body__text {
+  .body_text {
     width: 720px;
     height: 103px;
     margin: 20px 0px 0px ;
@@ -185,7 +185,7 @@ body {
     width: 300px;
   }
 
-  .footer__text {
+  .footer_text {
     width: 417px;
     height: 68px;
     margin: 49px 68px;
@@ -213,7 +213,7 @@ body {
     height: 249px;
   }
 
-  .body__text {
+  .body_text {
     width: 540px;
     height: 128px;
     margin: 20px 0px 0px ;
@@ -257,13 +257,13 @@ body {
     margin: 20px 84px 0px 0px;
   }
 
-  .body__text {
+  .body_text {
     width: 340px;
     height: 205px;
     margin: 20px 0px 0px ;
   }
 
-  .footer__text {
+  .footer_text {
     width: 382px;
     height: 67px;
   }
