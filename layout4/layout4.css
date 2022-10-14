@@ -33,7 +33,7 @@ body {
   margin-top: 406px;
   height: 364px;
   display: grid;
-  grid-template-columns: repeat(3, 360px);
+  grid-template-columns: repeat(3, 343.3px);
   grid-gap: 30px;
 }
 
@@ -108,15 +108,19 @@ body {
   margin: 49px 362px;
 }
 
-@media (max-width: 1199px){
+@media (max-width: 1199px) {
   .background_margin {
-    width: 940px;
+    display: flex;
   }
-  
+
   .box {
     width: auto;
     height: 393px;
-    grid-template-columns: repeat(3, 294px);
+  }
+
+  .block_panel {
+    width: auto;
+    height: auto;
   }
 
   .block_panel_text {
@@ -156,7 +160,7 @@ body {
 
 @media (max-width: 767px) {
   .background_margin {
-    width: auto;
+    width: 350px;
   }
 
   .box {
@@ -175,6 +179,7 @@ body {
 
   .block_panel {
     padding: 30px 25px;
+    
   }
 
   .block_panel_text {
